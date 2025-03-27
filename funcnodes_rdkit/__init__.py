@@ -9,22 +9,6 @@ FUNCNODES_RENDER_OPTIONS: fn.RenderOptions = {
     },
 }
 
-# REACT_PLUGIN = {
-#     "js": [
-#         os.path.join(
-#             os.path.dirname(__file__), "react_plugin", "js", "ChemDoodleWeb.js"
-#         ),
-#     ],
-#     "module": os.path.join(
-#         os.path.dirname(__file__), "react_plugin", "js", "main.js"
-#     ),  #
-#     "css": [
-#         os.path.join(
-#             os.path.dirname(__file__), "react_plugin", "css", "jquery-ui-1.11.4.css"
-#         ),
-#     ],
-# }
-
 
 def molsvgencoder(obj, preview=False):
     if isinstance(obj, Chem.Mol):
